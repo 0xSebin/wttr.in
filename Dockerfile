@@ -13,7 +13,7 @@ RUN go get -u github.com/mattn/go-colorable && \
     cd /app && CGO_ENABLED=0 go build .
 
 # Application stage
-FROM alpine:3.22.1
+FROM alpine:3.23.2
 
 WORKDIR /app
 
